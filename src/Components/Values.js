@@ -10,14 +10,14 @@ const Values = () => {
   }, []);
 
   return (
-    <section id="values" class="values">
-      <div class="container" data-aos="fade-up">
-        <header class="section-header">
+    <section id="values" className="values">
+      <div className="container" data-aos="fade-up">
+        <header className="section-header">
           <h2>Our Values</h2>
           <p>Odit est perspiciatis laborum et dicta</p>
         </header>
 
-        <div class="row">
+        <div className="row">
           <ValueCard time="200" />
           <ValueCard time="400" />
           <ValueCard time="600" />

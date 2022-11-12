@@ -7,11 +7,10 @@ const FeatureCard = ({time}) => {
         AOS.init();
         AOS.refresh();
     }, [])
-    console.log("time" , time);
     return (
-      <div class="col-md-6" data-aos="zoom-out" data-aos-delay={time}>
-        <div class="feature-box d-flex align-items-center">
-          <i class="bi bi-check"><AiOutlineCheck/></i>
+      <div className="col-md-6" data-aos="zoom-out" data-aos-delay={time}>
+        <div className="feature-box d-flex align-items-center">
+          <i className="bi bi-check"><AiOutlineCheck/></i>
           <h3>Eos aspernatur rem</h3>
         </div>
       </div>

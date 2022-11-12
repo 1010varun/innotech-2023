@@ -9,14 +9,14 @@ const FactCard = ({imageSrc, data}) => {
     }, [])
 
     return (
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        <div class="portfolio-wrap">
+      <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div className="portfolio-wrap">
           <img
             src={imageSrc}
-            class="img-fluid"
+            className="img-fluid"
             alt=""
           />
-          <div class="portfolio-info">
+          <div className="portfolio-info">
             <p>{data}</p>
           </div>
         </div>

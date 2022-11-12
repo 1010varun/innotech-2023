@@ -15,41 +15,41 @@ const TeamCard = ({time}) => {
 
   return (
     <div
-      class="col-lg-3 col-md-6 d-flex align-items-stretch"
+      className="col-lg-3 col-md-6 d-flex align-items-stretch"
       data-aos="fade-up"
       data-aos-delay={time}
     >
-      <div class="member">
-        <div class="member-img">
+      <div className="member">
+        <div className="member-img">
           <img
             src="https://images.pexels.com/photos/61120/pexels-photo-61120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            class="img-fluid"
+            className="img-fluid"
             alt=""
           />
-          <div class="social">
-            <a href="">
-              <i class="bi bi-twitter">
+          <div className="social">
+            <a href="logo">
+              <i className="bi bi-twitter">
                 <AiOutlineTwitter />
               </i>
             </a>
-            <a href="">
-              <i class="bi bi-facebook">
+            <a href="logo">
+              <i className="bi bi-facebook">
                 <BsFacebook />
               </i>
             </a>
-            <a href="">
-              <i class="bi bi-instagram">
+            <a href="logo">
+              <i className="bi bi-instagram">
                 <AiFillInstagram />
               </i>
             </a>
-            <a href="">
-              <i class="bi bi-linkedin">
+            <a href="logo">
+              <i className="bi bi-linkedin">
                 <AiFillLinkedin />
               </i>
             </a>
           </div>
         </div>
-        <div class="member-info">
+        <div className="member-info">
           <h4>Walter White</h4>
           <span>Chief Executive Officer</span>
           <p>

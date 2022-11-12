@@ -1,11 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import FactCard from "./Fact-Card";
-import Image1 from "../images/image1.jpg"
-import Image2 from "../images/image2.jpg"
-import Image3 from "../images/image3.jpg"
-// import Image1 from "../images/image1.jpg"
-// import Image1 from "../images/image1.jpg"
 
 const Facts = () => {
   useEffect(() => {
@@ -14,15 +9,15 @@ const Facts = () => {
   }, []);
 
   return (
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-        <header class="section-header">
+    <section id="portfolio" className="portfolio">
+      <div className="container" data-aos="fade-up">
+        <header className="section-header">
           <h2>Facts</h2>
           <p>Facts about Eco system</p>
         </header>
 
         <div
-          class="row gy-4 portfolio-container"
+          className="row gy-4 portfolio-container"
           data-aos="fade-up"
           data-aos-delay="400"
         >

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import {AiOutlineArrowRight} from "react-icons/ai";
 
 const About = () => {
   useEffect(() => {
@@ -9,15 +8,15 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
+    <section id="about" className="about">
+      <div className="container" data-aos="fade-up">
+        <div className="row gx-0">
           <div
-            class="col-lg-6 d-flex flex-column justify-content-center"
+            className="col-lg-6 d-flex flex-column justify-content-center"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div class="content">
+            <div className="content">
               <h3>Who We Are</h3>
               <h2>
                 Expedita voluptas omnis cupiditate totam eveniet nobis sint
@@ -33,13 +32,13 @@ const About = () => {
           </div>
 
           <div
-            class="col-lg-6 d-flex align-items-center"
+            className="col-lg-6 d-flex align-items-center"
             data-aos="zoom-out"
             data-aos-delay="200"
           >
             <img
               src="https://images.pexels.com/photos/41953/earth-blue-planet-globe-planet-41953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              class="img-fluid"
+              className="img-fluid"
               alt=""
             />
           </div>

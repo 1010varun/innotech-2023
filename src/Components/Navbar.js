@@ -3,9 +3,9 @@ import {Link} from "react-scroll"
 
 const Navbar = () => {
     return (
-      <header id="header" class="header fixed-top">
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo d-flex align-items-center">
+      <header id="header" className="header fixed-top">
+        <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <a href="index.html" className="logo d-flex align-items-center">
             <img
               src="https://static.vecteezy.com/system/resources/thumbnails/009/314/440/small/earth-globe-clip-art-vector-illustration-isolated-free-png.png"
               alt=""
@@ -13,10 +13,10 @@ const Navbar = () => {
             <span>Save the Earth</span>
           </a>
 
-          <nav id="navbar" class="navbar">
+          <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a class="nav-link scrollto">
+                <a className="nav-link scrollto" href="hero">
                   <Link
                     to="hero"
                     spy={true}
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto">
+                <a className="nav-link scrollto" href="about">
                   <Link
                     to="about"
                     spy={true}
@@ -42,7 +42,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto">
+                <a className="nav-link scrollto" href="values">
                   <Link
                     to="values"
                     spy={true}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a class="nav-link scrollto">
+                <a className="nav-link scrollto" href="team">
                   <Link
                     to="team"
                     spy={true}
@@ -81,7 +81,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
         </div>
       </header>

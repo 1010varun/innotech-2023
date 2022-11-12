@@ -8,11 +8,11 @@ const ValueCard = ({ time }) => {
   }, []);
 
   return (
-    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={time}>
-      <div class="box">
+    <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={time}>
+      <div className="box">
         <img
           src="https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          class="img-fluid"
+          className="img-fluid"
           alt=""
         />
         <h3>Ad cupiditate sed est odio</h3>

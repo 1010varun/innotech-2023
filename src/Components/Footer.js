@@ -8,15 +8,15 @@ const Footer = () => {
   }, []);
   return (
     <footer id="footer" className="footer">
-      <div class="container">
-        <div class="copyright">
+      <div className="container">
+        <div className="copyright">
           &copy; Copyright{" "}
           <strong>
             <span></span>
           </strong>
           . All Rights Reserved
         </div>
-        <div class="credits">
+        <div className="credits">
           Designed by <a href="https://bootstrapmade.com/">Team Divine</a>
         </div>
       </div>
