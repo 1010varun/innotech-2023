@@ -16,7 +16,7 @@ const HeroSection = () => {
           <div className="col-lg-6 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">We can change the World together</h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
-              Registered Npn profitable organisation
+              Registered Non profitable organisation
             </h2>
             <div data-aos="fade-up" data-aos-delay="600">
               <div className="text-center text-lg-start">

@@ -12,8 +12,8 @@ const Features = () => {
     <section id="features" className="features">
       <div className="container" data-aos="fade-up">
         <header className="section-header">
-          <h2>Features</h2>
-          <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+          <h2>Save Earth</h2>
+          <p>We can save our Mother Earth by Following these steps</p>
         </header>
 
         <div className="row">
@@ -27,12 +27,12 @@ const Features = () => {
 
           <div className="col-lg-6 mt-5 mt-lg-0 d-flex">
             <div className="row align-self-center gy-4">
-              <FeatureCard time = "200"/>
-              <FeatureCard time = "350"/>
-              <FeatureCard time = "500"/>
-              <FeatureCard time = "650"/>
-              <FeatureCard time = "800"/>
-              <FeatureCard time = "950"/>
+              <FeatureCard time="200" data={"Conserve Water"} />
+              <FeatureCard time="350" data={"Reduce, Reuse, Recycle"} />
+              <FeatureCard time="500" data={"Give Composting a Try"} />
+              <FeatureCard time="650" data={"Eat Sustainable Foods"} />
+              <FeatureCard time="800" data={"Plant Trees"} />
+              <FeatureCard time="950" data={"Give Up Plastics"} />
             </div>
           </div>
         </div>

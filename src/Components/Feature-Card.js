@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import { AiOutlineCheck } from "react-icons/ai";
 
-const FeatureCard = ({time}) => {
+const FeatureCard = ({time, data}) => {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -11,7 +11,7 @@ const FeatureCard = ({time}) => {
       <div className="col-md-6" data-aos="zoom-out" data-aos-delay={time}>
         <div className="feature-box d-flex align-items-center">
           <i className="bi bi-check"><AiOutlineCheck/></i>
-          <h3>Eos aspernatur rem</h3>
+          <h3>{data}</h3>
         </div>
       </div>
     );

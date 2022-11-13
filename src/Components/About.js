@@ -19,14 +19,19 @@ const About = () => {
             <div className="content">
               <h3>Who We Are</h3>
               <h2>
-                Expedita voluptas omnis cupiditate totam eveniet nobis sint
-                iste. Dolores est repellat corrupti reprehenderit.
+                Eco Superhero - a platform that brings together the synergies of
+                making peace with nature and how we can change our ways of
+                addressing the world around us in a more sustainable manner
               </h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
-                et. Inventore et et dolor consequatur itaque ut voluptate sed
-                et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
-                corrupti.
+                We are a team of four committed to help change the world which
+                is inclining towards it's own extinction! This project aims at
+                raising awareness among the people to realise the seriousness of
+                the scenario. We believe that if we are able to witness
+                something infront of our eyes then we tend to empathise with it
+                more easily, hence we bring to you Eco Superhero a journey how
+                things will adversely affect us in the near future! But with a
+                twist!
               </p>
             </div>
           </div>
