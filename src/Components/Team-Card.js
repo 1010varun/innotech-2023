@@ -2,10 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import {
   AiOutlineTwitter,
-  AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
-import {BsFacebook} from "react-icons/bs"
 
 const TeamCard = ({time, imageurl, name, about, twitter, linkedin}) => {
   useEffect(() => {
