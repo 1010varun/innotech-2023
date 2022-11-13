@@ -32,7 +32,7 @@ const Team = () => {
           <TeamCard
             time="400"
             imageurl={Kapil}
-            name={"KApil Kumar Singh"}
+            name={"Kapil Kumar Singh"}
             about={"AR-VR enthusiast"}
             twitter={
               "https://twitter.com/896Kapilsingh?t=zZG4NcIBwZYLEnLwog4feg&s=09"
