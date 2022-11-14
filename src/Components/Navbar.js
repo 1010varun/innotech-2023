@@ -70,6 +70,19 @@ const Navbar = () => {
               <li>
                 <a className="nav-link scrollto" href="team">
                   <Link
+                    to="donate"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Donate
+                  </Link>
+                </a>
+              </li>
+              <li>
+                <a className="nav-link scrollto" href="team">
+                  <Link
                     to="team"
                     spy={true}
                     smooth={true}

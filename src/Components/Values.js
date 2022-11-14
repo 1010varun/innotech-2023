@@ -40,7 +40,7 @@ const Values = () => {
               "https://www.saveplanetearth.org/wp-content/uploads/elementor/thumbs/pexels-alexas-fotos-2220336-scaled-pm1bz6xyopmbx3qxt40ts5h4z9yr4k9ei7l2zzdpy8.jpeg"
             }
             data={
-              "When a habitat isdestroyed, the plants, animals, and other organisms that occupied thehabitat have a reduced carrying capacity so that populations decline and extinction becomes more likely"
+              "When a habitat is destroyed, the plants, animals, and other organisms that occupied thehabitat have a reduced carrying capacity so that populations decline and extinction becomes more likely"
             }
           />
           <ValueCard

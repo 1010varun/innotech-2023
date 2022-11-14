@@ -11,6 +11,7 @@ import About from "./Components/About";
 import Values from "./Components/Values";
 import Features from "./Components/Features";
 import Facts from "./Components/Facts";
+import Donate from "./Components/Donate";
 import Team from "./Components/Team";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -24,6 +25,7 @@ const App = () => {
       <Values />
       <Features />
       <Facts />
+      <Donate/>
       <Team />
       <Footer />
     </div>
